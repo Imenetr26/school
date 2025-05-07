@@ -64,3 +64,5 @@ sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 sudo systemctl enable sonarqube
 sudo systemctl start sonarqube
+echo "Test webhook - $(date)"
+
